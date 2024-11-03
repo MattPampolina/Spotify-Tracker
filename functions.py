@@ -169,7 +169,7 @@ def addToMasterFile(json_data):
             add_count += 1
             master_data.append(track)
     
-    sortTracks(master_data, 'played_at_eastern')
+    master_data = sortTracks(master_data, 'played_at_eastern')
 
     # Write the updated data back to master_json.json
     writeJsonToFile(masterFilePath, master_data)
