@@ -8,7 +8,7 @@ FILENAME="master_spotify_tracks_${YESTERDAY}.json"
 
 # Paths
 JSON_FILE=~/spotify/data/$YEAR/$MONTH/$FILENAME
-DB_FILE=spotify_tracks.db
+DB_FILE=~/spotify/spotify_tracks.db
 TABLE_NAME="tracks"
 LOG_DIR=~/spotify/logs
 LOG_FILE="$LOG_DIR/insertlog_$YESTERDAY.log"
