@@ -12,7 +12,8 @@ year = datetime.now(eastern).strftime("%Y")
 month = datetime.now(eastern).strftime("%m")
 
 # Define the folder and filenames
-base_directory = '~/spotify/data'
+#base_directory = '~/spotify/data'
+base_directory = os.path.expanduser('~/spotify/data')
 year_folder = os.path.join(base_directory, year)
 month_folder = os.path.join(year_folder, month)
 
